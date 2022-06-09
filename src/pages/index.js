@@ -7,6 +7,7 @@ import Intro from "../components/projectSection/Intro";
 import About from "../components/about/about";
 import Contact from "../components/contact/contact";
 import Projects from "../components/projects/projects";
+import Card from "../components/card/Card";
 
 const Home = () => {
   return (

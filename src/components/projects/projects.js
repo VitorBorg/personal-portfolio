@@ -1,4 +1,7 @@
 import react from "react";
+import Card from "../card/Card";
+
+//import logo from "../../public/sistema_portaria.png";
 
 import {
   SectionBase,
@@ -17,13 +20,16 @@ export default function Projects() {
         <Barra />
       </H2Title>
       <DivAbout>
-        <PText>
-          Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor
-          web front-end. Eu ainda estou na universidade (UFPEL) e tive algumas
-          experiências práticas de web na faculdade, seja fazendo um pequeno
-          projeto até entendo melhor sobre banco de dados. Mas decidi me dedicar
-          realmente faz pouco tempo.
-        </PText>
+        <Card
+          link="https://i.ibb.co/hXnZ44c/Captura-de-Tela-14.png"
+          number="1"
+          name="Portaria"
+          function="Sistema de controle de entrada e saída da portaria"
+          description="Desenvolvi tanto o back end quanto o front end. Sistema feito completamente por mim!"
+          tech="React js, node js, next js"
+          git="https://github.com/VitorBorg/portaria-capao"
+          site=""
+        />
       </DivAbout>
     </SectionBase>
   );

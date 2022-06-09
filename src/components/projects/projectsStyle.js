@@ -4,10 +4,13 @@ export const SectionBase = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 400px 70px;
+  margin: 0px 70px;
   padding: 0px;
   list-style: none;
   list-style-type: none;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0px 50px 0px 50px;
 `;
 
 export const H2Title = styled.section`
@@ -22,7 +25,7 @@ export const H2Title = styled.section`
 
 export const DivAbout = styled.div`
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 14fr 2fr;
   gap: 50px;
 `;
 

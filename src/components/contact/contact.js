@@ -1,32 +1,25 @@
 import react from "react";
 
-import {
-  SectionBase,
-  H2Title,
-  DivAbout,
-  Barra,
-  PText,
-  Grid,
-} from "./contactStyle";
+import Git from "../../public/git/git";
+import Linkedin from "../../public/linkedin/linkedin";
+import Instagram from "../../public/instagram/instagram";
+
+import { SectionBase } from "./contactStyle";
 
 export default function Contact() {
   return (
     <SectionBase>
-      <H2Title>
-        <PText style={{ textAlign: "left" }}>Contato</PText>
-      </H2Title>
-      <DivAbout>
-        <div>
-          <PText>
-            Se tiver interesse você pode me encontrar nas minhas redes sociais.
-          </PText>
-          <Grid>
-            <li>Lnk</li>
-            <li>Inst</li>
-            <li>Git</li>
-          </Grid>
-        </div>
-      </DivAbout>
+      <a href="https://github.com/VitorBorg">
+        <Git />
+      </a>
+      <div />
+      <a href="https://www.linkedin.com/in/vitorsborg/">
+        <Linkedin />
+      </a>
+      <div />
+      <a href="https://www.instagram.com/vitorsborg/">
+        <Instagram />
+      </a>
     </SectionBase>
   );
 }

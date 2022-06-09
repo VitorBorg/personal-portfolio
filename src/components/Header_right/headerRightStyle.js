@@ -20,6 +20,10 @@ export const MenuItem = styled.li`
 export const MenuLink = styled.a`
   padding: 10px;
   text-decoration: none;
+
+  a {
+    width: 1vw;
+  }
 `;
 
 export const MenuPosition = styled.section`

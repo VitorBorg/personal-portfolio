@@ -1,13 +1,24 @@
 import styled from "styled-components";
 
+export const Section = styled.section`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 10px;
+  width: auto;
+`;
+
 export const SectionBase = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 70px;
-  padding: 0px;
+  //margin: 0px 70px;
+  //padding: 0px;
   list-style: none;
   list-style-type: none;
+  width: 60%;
 `;
 
 export const H2Title = styled.section`

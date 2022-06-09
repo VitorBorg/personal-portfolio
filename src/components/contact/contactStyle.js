@@ -2,67 +2,18 @@ import styled from "styled-components";
 
 export const SectionBase = styled.section`
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  margin: 400px 70px;
-  padding: 0px;
-  list-style: none;
-  list-style-type: none;
-`;
+  padding: 0 40px;
+  margin: 100px 0 30px 0;
+  box-sizing: border-box;
+  height: 90px;
+  border-bottom: 1px solid rgba(166, 182, 211, 0.01);
+  border-top: 1px solid rgba(166, 182, 211, 0.01);
 
-export const H2Title = styled.section`
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  align-items: left;
-  text-align: left;
-  margin: 10px 0px 40px;
-  font-size: clamp(26px, 5vw, 32px);
-`;
-
-export const DivAbout = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 50px;
-`;
-
-export const Barra = styled.div`
-  content: "";
-  display: flex;
-  width: 200px;
-  height: 0.1px;
-  margin: 0px auto;
-  background-color: #92a8d1;
-  margin-top: 2rem;
-  margin-left: 2rem;
-`;
-
-export const PText = styled.p`
-  text-align: left;
-  line-height: 20px;
-  font-weight: 600;
-  padding: 1rem;
-`;
-
-export const Grid = styled.ul`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  margin: 20px 0px 0px;
-  overflow: hidden;
-  list-style: none;
-
-  li {
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 20px;
-  }
-
-  ::before {
-    content: "";
-    position: absolute;
-    left: 0px;
+  div {
+    height: 40px;
+    width: 1px;
+    background-color: rgba(166, 182, 211, 0.1);
   }
 `;

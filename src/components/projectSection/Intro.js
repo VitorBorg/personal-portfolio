@@ -26,8 +26,7 @@ export default function Intro() {
         </DivTitleGroup>
         <PDescription>
           Estou iniciando como desenvolvedor front end e busco minha primeira
-          experiência real como desenvolvedor, apesar de já ter feito alguns
-          projetos.
+          experiência real na área.
         </PDescription>
       </div>
     </SectionTitles>
