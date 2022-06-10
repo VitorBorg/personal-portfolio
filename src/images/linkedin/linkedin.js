@@ -3,7 +3,7 @@ import React from "react";
 const Linkedin = () => {
   return (
     //https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg
-    <svg width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <svg width="26px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
       <path
         fill="#A6B6D3"
         d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"

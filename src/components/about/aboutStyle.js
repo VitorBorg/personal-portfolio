@@ -32,9 +32,7 @@ export const H2Title = styled.section`
 `;
 
 export const DivAbout = styled.div`
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 50px;
+  display: flex;
 `;
 
 export const Barra = styled.div`

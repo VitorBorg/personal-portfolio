@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "Portaria",
+      "title": "Sistema de controle de entrada e saída da portaria",
+      "subtitle": 29,
+      "description": "Desenvolvi tanto o back end quanto o front end.",
+      "technologies": ["React-JS,", " Next-js,", " Node-js"],
+      "links": "",
+      "thumb": "https://i.ibb.co/hXnZ44c/Captura-de-Tela-14.png"
+    }
+  ],
+  "about": {
+    "description": [
+      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web front-end. Estou cursando Ciência da Computação na Universidade Federal de Pelotas, e tive algumas pequenas experiências práticas de web lá. Mas decidi me dedicar realmente faz pouco tempo.",
+      "Apesar de não ter estagiado diretamente como desenvolvedor web, fiz um projeto que me introduziu no mundo do react. Mesmo com o curto prazo e a pouca experiência o sistema fora finalizado e atendeu a todas as exigências.",
+      "Decidi sair então do estágio e hoje me dedico a aprender mais sobre web e buscar uma primeira vaga na área."
+    ],
+    "technologies": [
+      "React-JS",
+      "Next-js",
+      "Node-js",
+      "Styled-Components",
+      "TypeScript",
+      "ThreeJS"
+    ],
+    "model": "modelPATH"
+  },
+  "presentation": {
+    "name": "Vítor Borges",
+    "subtitle": "Eu sou um desenvolvedor júnior",
+    "description": "Estou iniciando como desenvolvedor front end e busco minha primeira experiência real na área."
+  }
+}

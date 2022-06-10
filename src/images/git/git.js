@@ -3,7 +3,7 @@ import React from "react";
 const Git = () => {
   return (
     //https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg
-    <svg width="2.2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
       <g fill="#A6B6D3">
         <path
           fillRule="evenodd"

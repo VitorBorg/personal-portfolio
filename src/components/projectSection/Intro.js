@@ -1,4 +1,7 @@
 import react from "react";
+
+import data from "../../../public/data/data.json";
+
 import {
   SectionTitles,
   DivTitles,
@@ -18,16 +21,13 @@ export default function Intro() {
             <H1Title>Olá, meu nome é</H1Title>
           </DivTitles>
           <DivTitles>
-            <H2Title>Vítor Borges.</H2Title>
+            <H2Title>{data.presentation.name}.</H2Title>
           </DivTitles>
           <DivTitles>
-            <H3Title>Eu sou um desenvolvedor júnior.</H3Title>
+            <H3Title>{data.presentation.subtitle}</H3Title>
           </DivTitles>
         </DivTitleGroup>
-        <PDescription>
-          Estou iniciando como desenvolvedor front end e busco minha primeira
-          experiência real na área.
-        </PDescription>
+        <PDescription>{data.presentation.description}</PDescription>
       </div>
     </SectionTitles>
   );

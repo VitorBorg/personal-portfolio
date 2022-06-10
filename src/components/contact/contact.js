@@ -1,8 +1,8 @@
 import react from "react";
 
-import Git from "../../public/git/git";
-import Linkedin from "../../public/linkedin/linkedin";
-import Instagram from "../../public/instagram/instagram";
+import Git from "../../images/git/git";
+import Linkedin from "../../images/linkedin/linkedin";
+import Instagram from "../../images/instagram/instagram";
 
 import { SectionBase } from "./contactStyle";
 

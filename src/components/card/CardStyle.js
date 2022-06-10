@@ -6,6 +6,7 @@ export const SectionCard = styled.section`
   margin: 80px 0px 0px 0px;
   padding: 0px;
   width: 50%;
+  min-width: 350px;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 80;
   box-shadow: 5px 8px rgba(0, 0, 0, 0.08);

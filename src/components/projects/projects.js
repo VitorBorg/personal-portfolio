@@ -2,6 +2,7 @@ import react from "react";
 import Card from "../card/Card";
 
 //import logo from "../../public/sistema_portaria.png";
+import data from "../../../public/data/data.json";
 
 import {
   SectionBase,
@@ -20,16 +21,22 @@ export default function Projects() {
         <Barra />
       </H2Title>
       <DivAbout>
-        <Card
-          link="https://i.ibb.co/hXnZ44c/Captura-de-Tela-14.png"
-          number="1"
-          name="Portaria"
-          function="Sistema de controle de entrada e saída da portaria"
-          description="Desenvolvi tanto o back end quanto o front end. Sistema feito completamente por mim!"
-          tech="React js, node js, next js"
-          git="https://github.com/VitorBorg/portaria-capao"
-          site=""
-        />
+        <ul>
+          {data.projects.map((project, index) => (
+            <li key={project}>
+              <Card
+                link={project.thumb}
+                number={index + 1}
+                name={project.name}
+                function={project.title}
+                description={project.description}
+                tech={project.technologies}
+                git={project.link}
+                site=""
+              />
+            </li>
+          ))}
+        </ul>
       </DivAbout>
     </SectionBase>
   );

@@ -15,8 +15,11 @@ const Home = () => {
       {/*<GlobalStyle />*/}
       <Header />
       <HeaderRight />
+      <div id="intro" />
       <Intro />
+      <div id="about" />
       <About />
+      <div id="projects" />
       <Projects />
       <Contact />
       {/*Footer*/}

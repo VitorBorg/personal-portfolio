@@ -1,7 +1,6 @@
 import react from "react";
 
-import Git from "../../public/git/git";
-
+import Git from "../../images/git/git";
 import {
   SectionCard,
   DivDescription,
