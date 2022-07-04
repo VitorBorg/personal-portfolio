@@ -8,7 +8,7 @@ export const SectionTitles = styled.section`
   padding: 0px;
   list-style: none;
   list-style-type: none;
-  height: 100vh;
+  height: clamp(65rem, 100vh, 130rem);
 
   @media (max-width: 800px) {
     margin: 0vw;

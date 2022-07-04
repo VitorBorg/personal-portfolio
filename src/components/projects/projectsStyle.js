@@ -8,7 +8,7 @@ export const SectionBase = styled.section`
   padding: 0px;
   list-style: none;
   list-style-type: none;
-  height: 100vh;
+  height: auto;
   max-width: 100%;
   margin: 0px 50px 0px 50px;
 `;
@@ -24,9 +24,28 @@ export const H2Title = styled.section`
 `;
 
 export const DivAbout = styled.div`
-  display: grid;
-  grid-template-columns: 14fr 2fr;
-  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.7vw;
+
+    li {
+      display: flex;
+      justify-content: center;
+    }
+
+    @media (max-width: 1390px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 999px) {
+      grid-template-columns: 1fr;
+    }
+  }
 `;
 
 export const Barra = styled.div`

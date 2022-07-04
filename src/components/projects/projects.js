@@ -1,7 +1,6 @@
 import react from "react";
 import Card from "../card/Card";
 
-//import logo from "../../public/sistema_portaria.png";
 import data from "../../../public/data/data.json";
 
 import {

@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const DivPadding = styled.div`
+export const MainElement = styled.main``;
+
+export const DivPadding = styled.section`
   padding: 0vw 9.3vw;
   width: 100;
 
@@ -11,4 +13,8 @@ export const DivPadding = styled.div`
   @media (max-width: 800px) {
     padding: 0vw 3vw;
   }
+
+  display: flex;
+  flex-direction: column;
+  display: block;
 `;

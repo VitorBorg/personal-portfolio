@@ -17,7 +17,7 @@ export const MenuItem = styled.li`
   list-style: none;
 
   :hover {
-    transform: scale(1.3, 1.3);
+    transform: scale(1, 1);
   }
 `;
 

@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  #position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin-bottom: 10px;
+  height: clamp(65rem, 100vh, 130rem);
+  #margin-bottom: 10px;
   width: auto;
 `;
 
@@ -19,6 +20,10 @@ export const SectionBase = styled.section`
   list-style: none;
   list-style-type: none;
   width: 60%;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const H2Title = styled.section`
@@ -49,28 +54,34 @@ export const Barra = styled.div`
 export const PText = styled.p`
   text-align: left;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  #color: #565f70;
   padding: 1rem;
 `;
 
-export const Grid = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-  gap: 0px 10px;
-  padding: 0px;
-  margin: 20px 0px 0px;
-  overflow: hidden;
-  list-style: none;
+export const Grid = styled.div`
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px;
+    overflow: hidden;
+    list-style: none;
+
+    #font-family: ${(props) => props.theme.fonts.title};
+  }
 
   li {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
-  }
 
-  ::before {
-    content: "";
-    position: absolute;
-    left: 0px;
+    ::before {
+      content: "▹";
+      position: absolute;
+      left: 0px;
+      color: #a6d3bc;
+    }
   }
 `;

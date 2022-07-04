@@ -4,7 +4,7 @@ export const NavStyle = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 9vh;
+  height: 6rem;
   position: fixed;
   padding: 0vw;
   #right: 4vw;
@@ -53,6 +53,8 @@ export const ButtonMobileClose = styled.button`
   padding: 0;
   outline: inherit;
   z-index: 15;
+
+  cursor: pointer;
 
   @media (max-width: 800px) {
     display: block;

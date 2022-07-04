@@ -10,11 +10,11 @@ import Projects from "../components/projects/projects";
 import Card from "../components/card/Card";
 import HeaderMobile from "../components/headerMobile/headerMobile";
 
-import { DivPadding } from "../styles/indexStyle";
+import { DivPadding, MainElement } from "../styles/indexStyle";
 
 const Home = () => {
   return (
-    <>
+    <MainElement>
       <HeaderMobile />
       <DivPadding>
         <Header />
@@ -28,7 +28,7 @@ const Home = () => {
         <Contact />
         {/*Footer*/}
       </DivPadding>
-    </>
+    </MainElement>
   );
 };
 

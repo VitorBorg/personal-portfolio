@@ -5,14 +5,13 @@ export const SectionCard = styled.section`
   flex-direction: column;
   margin: 80px 0px 0px 0px;
   padding: 0px;
-  width: 50%;
-  min-width: 350px;
+  width: clamp(330px, 360px, 450px);
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 80;
   box-shadow: 5px 8px rgba(0, 0, 0, 0.08);
 
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
   }
 `;
 
@@ -26,7 +25,7 @@ export const DivImage = styled.div`
 `;
 
 export const DivDescription = styled.div`
-  padding: 40px 40px 80px 80px;
+  padding: 30px 60px 30px 60px;
   list-style: none;
   list-style-type: none;
 

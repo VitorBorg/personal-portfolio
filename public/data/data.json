@@ -4,15 +4,53 @@
       "name": "Portaria",
       "title": "Sistema de controle de entrada e saída da portaria",
       "subtitle": 29,
-      "description": "Desenvolvi tanto o back end quanto o front end.",
-      "technologies": ["React-JS,", " Next-js,", " Node-js"],
+      "description": "Sistema que registra entrada e saída (com nome, hora e temperatura), além de possuir cadastro de usuários. Com vários tipos de filtros de busca. Também exporta o banco de dados em pdf. Desenvolvi tanto o back end quanto o front end.",
+      "technologies": [
+        "React-JS,",
+        " Next-js,",
+        " Node-js,",
+        " Axios,",
+        " MongoDB"
+      ],
       "links": "",
-      "thumb": "https://i.ibb.co/hXnZ44c/Captura-de-Tela-14.png"
+      "thumb": "sistema_portaria.png"
+    },
+    {
+      "name": "Post-it",
+      "title": "Sistema web que cria anotações na página",
+      "subtitle": 29,
+      "description": "Projeto particular apenas para praticar um CRUD.",
+      "technologies": [
+        "React-JS,",
+        "Next-js,",
+        " Node-js,",
+        " Express,",
+        " Axios,",
+        " Postgresql"
+      ],
+      "links": "",
+      "thumb": "sistema_temp.png"
+    },
+    {
+      "name": "MarketPlace",
+      "title": "Sistema web de marketplace",
+      "subtitle": 29,
+      "description": "Projeto com acesso a banco de dados, consumo de api, jwt, validações, uso de api de pagamentos e testes unitários.",
+      "technologies": [
+        "React-JS,",
+        "Next-js,",
+        " Node-js,",
+        " Express,",
+        " Axios,",
+        " MongoDB"
+      ],
+      "links": "",
+      "thumb": "sistema_temp.png"
     }
   ],
   "about": {
     "description": [
-      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web front-end (mas com boas noções para o back-end). Estou cursando Ciência da Computação na Universidade Federal de Pelotas, onde tive algumas pequenas experiências práticas. Mas decidi me dedicar realmente faz pouco tempo.",
+      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web com foco no front-end (mas com um bom conhecimento no back-end). Estou cursando Ciência da Computação na Universidade Federal de Pelotas, onde tive algumas pequenas experiências práticas. Mas decidi me dedicar realmente faz pouco tempo.",
       "Apesar de não ter estagiado diretamente como desenvolvedor web, fiz um projeto que me introduziu no mundo do react. Decidi sair então desse estágio e hoje me dedico a aprender mais sobre web e buscar a primeira vaga na área.",
       ""
     ],

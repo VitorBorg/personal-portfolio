@@ -7,7 +7,7 @@ export const SectionBase = styled.section`
   padding: 0 40px;
   margin: 100px 0 30px 0;
   box-sizing: border-box;
-  height: 90px;
+  height: auto;
   border-bottom: 1px solid rgba(166, 182, 211, 0.01);
   border-top: 1px solid rgba(166, 182, 211, 0.01);
 

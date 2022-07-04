@@ -38,7 +38,7 @@ export default function HeaderMobile() {
             <Instagram />
           </a>
         </DivLinks>
-        <ButtonMobile onClick={handleButtonClick}>
+        <ButtonMobile onClick={handleButtonClick} style={{ cursor: "pointer" }}>
           <MenuIcon />
         </ButtonMobile>
       </NavStyle>

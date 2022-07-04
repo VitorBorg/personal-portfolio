@@ -18,7 +18,15 @@ export default function About() {
       <Section>
         <SectionBase>
           <H2Title>
-            <PText style={{ textAlign: "left" }}>Quem sou eu</PText>
+            <PText
+              style={{
+                textAlign: "left",
+                fontWeight: "600",
+                color: "#A6B6D3",
+              }}
+            >
+              Quem sou eu
+            </PText>
             <Barra />
           </H2Title>
           <DivAbout>
