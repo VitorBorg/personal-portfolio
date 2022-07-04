@@ -1,20 +1,27 @@
 import styled from "styled-components";
 
-export const NavStyle = styled.nav`
+export const NavStyle = styled.header`
   display: flex;
-  flex-direction: row;
-  background-color: rgba(0, 0, 0, 0);
-
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 9vh;
   position: fixed;
-  left: auto;
-  right: 4vw;
-  width: auto;
-  top: 1.3vh;
+  padding: 0vw;
+  #right: 4vw;
+  width: 100%;
+  #top: 1.3vh;
   z-index: 10;
 
-  display: block;
+  #display: block;
+
+  * {
+    margin: 4px 8px 0vh 0vw;
+  }
 
   @media (max-width: 800px) {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px -10px rgba(10, 25, 47, 0.85);
   }
 `;
 

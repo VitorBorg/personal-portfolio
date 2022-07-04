@@ -10,24 +10,25 @@ import Projects from "../components/projects/projects";
 import Card from "../components/card/Card";
 import HeaderMobile from "../components/headerMobile/headerMobile";
 
-import { DivPadding } from "./indexStyle";
+import { DivPadding } from "../styles/indexStyle";
 
 const Home = () => {
   return (
-    <DivPadding>
-      {/*<GlobalStyle />*/}
+    <>
       <HeaderMobile />
-      <Header />
-      <HeaderRight />
-      <div id="intro" />
-      <Intro />
-      <div id="about" />
-      <About />
-      <div id="projects" />
-      <Projects />
-      <Contact />
-      {/*Footer*/}
-    </DivPadding>
+      <DivPadding>
+        <Header />
+        <HeaderRight />
+        <div id="intro" />
+        <Intro />
+        <div id="about" />
+        <About />
+        <div id="projects" />
+        <Projects />
+        <Contact />
+        {/*Footer*/}
+      </DivPadding>
+    </>
   );
 };
 
