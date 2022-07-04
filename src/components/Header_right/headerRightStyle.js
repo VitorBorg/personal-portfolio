@@ -15,6 +15,10 @@ export const MenuItem = styled.li`
   padding: 0px;
   padding-top: 2rem;
   list-style: none;
+
+  :hover {
+    transform: scale(1.2, 1.2);
+  }
 `;
 
 export const MenuLink = styled.a`
@@ -23,6 +27,11 @@ export const MenuLink = styled.a`
 
   a {
     width: 1vw;
+  }
+
+  a:hover {
+    *:first-child {
+      fill: #a6d3bc;
   }
 `;
 

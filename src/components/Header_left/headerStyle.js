@@ -15,6 +15,10 @@ export const MenuItem = styled.li`
   padding: 0px;
   padding-top: 2rem;
   list-style: none;
+
+  :hover {
+    transform: scale(1.3, 1.3);
+  }
 `;
 
 export const MenuLink = styled.a`
@@ -24,6 +28,10 @@ export const MenuLink = styled.a`
   a {
     color: rgba(166, 182, 211, 1);
     text-decoration: none; /* no underline */
+  }
+
+  a:hover {
+    color: #a6d3bc;
   }
 `;
 
