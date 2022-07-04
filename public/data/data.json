@@ -12,23 +12,23 @@
   ],
   "about": {
     "description": [
-      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web front-end. Estou cursando Ciência da Computação na Universidade Federal de Pelotas, e tive algumas pequenas experiências práticas de web lá. Mas decidi me dedicar realmente faz pouco tempo.",
-      "Apesar de não ter estagiado diretamente como desenvolvedor web, fiz um projeto que me introduziu no mundo do react. Mesmo com o curto prazo e a pouca experiência o sistema fora finalizado e atendeu a todas as exigências.",
-      "Decidi sair então do estágio e hoje me dedico a aprender mais sobre web e buscar uma primeira vaga na área."
+      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web front-end (mas com boas noções para o back-end). Estou cursando Ciência da Computação na Universidade Federal de Pelotas, onde tive algumas pequenas experiências práticas. Mas decidi me dedicar realmente faz pouco tempo.",
+      "Apesar de não ter estagiado diretamente como desenvolvedor web, fiz um projeto que me introduziu no mundo do react. Decidi sair então desse estágio e hoje me dedico a aprender mais sobre web e buscar a primeira vaga na área.",
+      ""
     ],
     "technologies": [
       "React-JS",
       "Next-js",
       "Node-js",
-      "Styled-Components",
+      "Express",
       "TypeScript",
-      "ThreeJS"
+      "Styled-Components"
     ],
     "model": "modelPATH"
   },
   "presentation": {
     "name": "Vítor Borges",
-    "subtitle": "Eu sou um desenvolvedor júnior",
-    "description": "Estou iniciando como desenvolvedor front end e busco minha primeira experiência real na área."
+    "subtitle": "Eu sou um desenvolvedor júnior.",
+    "description": "Estou iniciando como desenvolvedor front end e busco minha primeira experiência em uma empresa de tecnologia."
   }
 }

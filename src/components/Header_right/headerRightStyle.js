@@ -33,6 +33,12 @@ export const MenuPosition = styled.section`
   width: auto;
   top: 0px;
   z-index: 10;
+
+  display: block;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 
 export const Last = styled.div`

@@ -8,11 +8,15 @@ import About from "../components/about/about";
 import Contact from "../components/contact/contact";
 import Projects from "../components/projects/projects";
 import Card from "../components/card/Card";
+import HeaderMobile from "../components/headerMobile/headerMobile";
+
+import { DivPadding } from "./indexStyle";
 
 const Home = () => {
   return (
-    <div style={{ padding: "0px 130px", width: "100%" }}>
+    <DivPadding>
       {/*<GlobalStyle />*/}
+      <HeaderMobile />
       <Header />
       <HeaderRight />
       <div id="intro" />
@@ -23,7 +27,7 @@ const Home = () => {
       <Projects />
       <Contact />
       {/*Footer*/}
-    </div>
+    </DivPadding>
   );
 };
 
