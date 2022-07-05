@@ -30,22 +30,6 @@
       ],
       "links": "",
       "thumb": "sistema_temp.png"
-    },
-    {
-      "name": "MarketPlace",
-      "title": "Sistema web de marketplace",
-      "subtitle": 29,
-      "description": "Projeto com acesso a banco de dados, consumo de api, jwt, validações, uso de api de pagamentos e testes unitários.",
-      "technologies": [
-        "React-JS,",
-        "Next-js,",
-        " Node-js,",
-        " Express,",
-        " Axios,",
-        " MongoDB"
-      ],
-      "links": "",
-      "thumb": "sistema_temp.png"
     }
   ],
   "about": {
