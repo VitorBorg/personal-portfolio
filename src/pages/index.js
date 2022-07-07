@@ -14,21 +14,23 @@ import { DivPadding, MainElement } from "../styles/indexStyle";
 
 const Home = () => {
   return (
-    <MainElement>
-      <HeaderMobile />
-      <DivPadding>
-        <Header />
-        <HeaderRight />
-        <div id="intro" />
-        <Intro />
-        <div id="about" />
-        <About />
-        <div id="projects" />
-        <Projects />
-        <Contact />
-        {/*Footer*/}
-      </DivPadding>
-    </MainElement>
+    <>
+      <MainElement>
+        <HeaderMobile />
+        <DivPadding>
+          <Header />
+          <HeaderRight />
+          <div id="intro" />
+          <Intro />
+          <div id="about" />
+          <About />
+          <div id="projects" />
+          <Projects />
+          <Contact />
+          {/*Footer*/}
+        </DivPadding>
+      </MainElement>
+    </>
   );
 };
 
