@@ -12,7 +12,7 @@
         " Axios,",
         " MongoDB"
       ],
-      "links": "",
+      "links": "https://github.com/VitorBorg/portaria-capao",
       "thumb": "sistema_portaria.png"
     },
     {
@@ -28,13 +28,13 @@
         " Axios,",
         " Postgresql"
       ],
-      "links": "",
+      "links": "https://github.com/VitorBorg/Post-it",
       "thumb": "sistema_temp.png"
     }
   ],
   "about": {
     "description": [
-      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web com foco no front-end (mas com um bom conhecimento no back-end). Estou cursando Ciência da Computação na Universidade Federal de Pelotas, onde tive algumas pequenas experiências práticas. Mas decidi me dedicar realmente faz pouco tempo.",
+      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web com foco no front-end (mas com um bom conhecimento no back-end). Estou cursando Ciência da Computação na Universidade Federal de Pelotas, onde tive algumas experiências práticas.",
       "Apesar de não ter estagiado diretamente como desenvolvedor web, fiz um projeto que me introduziu no mundo do react. Decidi sair então desse estágio e hoje me dedico a aprender mais sobre web e buscar a primeira vaga na área.",
       ""
     ],
