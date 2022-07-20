@@ -44,6 +44,12 @@ export const DivDetails = styled.div`
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 10px;
   }
+
+  a {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
 `;
 
 export const DivTitles = styled.div`

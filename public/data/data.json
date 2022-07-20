@@ -12,7 +12,7 @@
         " Axios,",
         " MongoDB"
       ],
-      "links": "https://github.com/VitorBorg/portaria-capao",
+      "link": "https://github.com/VitorBorg/portaria-capao",
       "thumb": "sistema_portaria.png"
     },
     {
@@ -28,7 +28,7 @@
         " Axios,",
         " Postgresql"
       ],
-      "links": "https://github.com/VitorBorg/Post-it",
+      "link": "https://github.com/VitorBorg/Post-it",
       "thumb": "sistema_temp.png"
     }
   ],
