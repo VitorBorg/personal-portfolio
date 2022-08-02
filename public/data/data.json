@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "name": "E-commerce",
+      "title": "Front-end de um e-commerce",
+      "subtitle": 29,
+      "description": "Front-end de um sistema e-commerce, com controle de rotas, validações, login e cart com produtos (utilizando local storage). Além de testes jest.",
+      "technologies": ["React-JS,", " Next-js,", " Styled-Components"],
+      "link": "https://github.com/VitorBorg/E-commerce",
+      "thumb": "sistema_temp.png"
+    },
+    {
       "name": "Portaria",
       "title": "Sistema de controle de entrada e saída da portaria",
       "subtitle": 29,
@@ -12,7 +21,7 @@
         " Axios,",
         " MongoDB"
       ],
-      "link": "https://github.com/VitorBorg/portaria-capao",
+      "link": "",
       "thumb": "sistema_portaria.png"
     },
     {
@@ -34,8 +43,8 @@
   ],
   "about": {
     "description": [
-      "Olá, eu sou o Vítor e estou buscando iniciar na vida de desenvolvedor web com foco no front-end (mas com um bom conhecimento no back-end). Estou cursando Ciência da Computação na Universidade Federal de Pelotas, onde tive algumas experiências práticas.",
-      "Apesar de não ter estagiado diretamente como desenvolvedor web, fiz um projeto que me introduziu no mundo do react. Decidi sair então desse estágio e hoje me dedico a aprender mais sobre web e buscar a primeira vaga na área.",
+      "Estudante de Ciência da computação no último ano na Universidade Federal de Pelotas. No mundo de web relativamente há pouco tempo focado, principalmente, em react js e next, para o front-end e java com spring boot para o back end.",
+      "No meu primeiro estágio desenvolvi um projeto que me introduziu no mundo do react e node js. Atualmente busco aumentar meu conhecimento quando ao desempenho das aplicações, boas práticas (assim como design patterns) e testes.",
       ""
     ],
     "technologies": [
@@ -43,8 +52,8 @@
       "Next-js",
       "Node-js",
       "Express",
-      "TypeScript",
-      "Styled-Components"
+      "Java",
+      "Spring boot"
     ],
     "model": "modelPATH"
   },

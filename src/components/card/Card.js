@@ -27,9 +27,14 @@ export default function Card(props) {
 
         <DivDetails>
           <p>{props.description}</p>
-          <a href={props.git}>
-            <Git />
-          </a>
+
+          {props.git !== "" ? (
+            <a href={props.git}>
+              <Git />
+            </a>
+          ) : (
+            <div></div>
+          )}
           {
             //<p>{props.site}</p>
           }
